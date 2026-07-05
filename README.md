@@ -1,6 +1,6 @@
 # 🛍️ Product Recommendation System
 
-An AI-powered Product Recommendation System that analyzes customer reviews using **Machine Learning**, **Natural Language Processing (NLP)**, and **VADER Sentiment Analysis**. The application provides product insights through an interactive **Streamlit** dashboard.
+An AI-powered Product Recommendation System that analyzes customer reviews using **Machine Learning**, **Natural Language Processing (NLP)**, and **VADER Sentiment Analysis**. The application provides product insights through an interactive **Streamlit** web application.
 
 ![Home](screenshots/home.png)
 
@@ -8,27 +8,28 @@ An AI-powered Product Recommendation System that analyzes customer reviews using
 
 ## 🚀 Live Demo
 
-> *(Add your Streamlit app link here after deployment.)*
+🔗 https://appuct-recommendation-system-ajzrkvj978yhaxw2vf3dxf.streamlit.app/
 
 ---
 
 ## 📌 Project Overview
 
-The Product Recommendation System helps users understand customer opinions by analyzing product reviews and classifying them as **Positive**, **Negative**, or **Neutral**.
+The Product Recommendation System helps users understand customer opinions by analyzing electronics product reviews and classifying them as **Positive**, **Negative**, or **Neutral**.
 
-Using NLP techniques and VADER Sentiment Analysis, the application provides meaningful insights through interactive visualizations, making it easier to evaluate products based on customer feedback.
+Using Natural Language Processing (NLP) and VADER Sentiment Analysis, the application provides meaningful insights through interactive visualizations, helping users make informed purchasing decisions based on customer feedback.
 
 ---
 
 ## ✨ Features
 
-- 🤖 AI-powered review sentiment analysis
-- 😊 Positive, Negative & Neutral review classification
-- 📊 Interactive Streamlit dashboard
+- 🤖 Interactive Streamlit web application
+- 😊 Positive, Negative & Neutral sentiment classification
+- 📊 Interactive sentiment dashboard
 - 📈 Sentiment distribution visualization
 - 📉 Product review analytics
-- 🔍 Machine Learning-based data processing
-- 📄 Easy-to-use interface
+- 🔍 Machine Learning-powered review analysis
+- ⚡ Real-time sentiment prediction
+- 📄 User-friendly interface
 
 ---
 
@@ -37,12 +38,13 @@ Using NLP techniques and VADER Sentiment Analysis, the application provides mean
 | Category | Technology |
 |----------|------------|
 | Language | Python |
-| Framework | Streamlit |
+| Web Framework | Streamlit |
 | Machine Learning | Scikit-learn |
-| NLP | VADER Sentiment |
+| NLP | VADER Sentiment Analysis |
 | Data Processing | Pandas, NumPy |
 | Visualization | Plotly, Matplotlib, Squarify |
 | Version Control | Git & GitHub |
+| Deployment | Streamlit Community Cloud |
 
 ---
 
@@ -53,6 +55,7 @@ Product-Recommendation-System/
 │
 ├── app.py
 ├── train.py
+├── Enhanced_Dataset_Final_1.csv
 ├── requirements.txt
 ├── README.md
 ├── .gitignore
@@ -125,16 +128,19 @@ Customer Reviews
 Data Preprocessing
         │
         ▼
-Sentiment Analysis (VADER)
+Feature Extraction
         │
         ▼
-Machine Learning Processing
+VADER Sentiment Analysis
         │
         ▼
-Visualization & Analytics
+Sentiment Classification
         │
         ▼
 Interactive Streamlit Dashboard
+        │
+        ▼
+Visual Analytics & Insights
 ```
 
 ---
@@ -144,19 +150,19 @@ Interactive Streamlit Dashboard
 - Analyze customer reviews efficiently.
 - Classify reviews into Positive, Negative, and Neutral categories.
 - Visualize sentiment trends using interactive charts.
-- Provide meaningful insights to improve product evaluation.
-- Demonstrate the practical use of NLP and Machine Learning.
+- Provide meaningful insights to assist product evaluation.
+- Demonstrate the practical application of Machine Learning and NLP.
 
 ---
 
 ## 🚀 Future Enhancements
 
-- Product recommendation based on sentiment scores.
-- Deep Learning models (LSTM/BERT).
-- Multi-language sentiment analysis.
-- User authentication.
-- Export analytics reports.
-- Real-time review analysis.
+- Personalized product recommendation engine
+- Deep Learning models (LSTM/BERT)
+- Multi-language sentiment analysis
+- User authentication
+- Export analytics reports
+- Real-time review analysis
 
 ---
 
